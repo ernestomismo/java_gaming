@@ -1,9 +1,7 @@
 package com.lyra.game;
 
 import java.awt.Canvas;
-import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
@@ -26,12 +24,12 @@ public class SpaceGame extends Canvas implements Runnable{
 	private JFrame frame;
 	private boolean running = false;
 	
-	// detecta pulsación de teclas del teclado
+	// detecta pulsaciï¿½n de teclas del teclado
 	private Keyboard keyboard;
 	private Player player;
 	private Screen screen;
 	
-	// gráficos
+	// grï¿½ficos
 	private BufferedImage bufferedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 	private int[] pixels;
 	
