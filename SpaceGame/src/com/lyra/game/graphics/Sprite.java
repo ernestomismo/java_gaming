@@ -10,7 +10,7 @@ public class Sprite {
 	//public static Sprite grass = new Sprite(16, 0, 0, SpriteSheet.tiles);
 	public static Sprite voidSprite = new Sprite(16, 0x21d1ab);
 	
-	public static Sprite playerLeft = new Sprite(45, 10, 15, SpriteSheet.spaceSoldier);
+	public static Sprite playerLeft = new Sprite(45, 60, 15, SpriteSheet.spaceSoldier);
 	public static Sprite playerRight = new Sprite(45, 10, 15, SpriteSheet.spaceSoldier);
 	
 	//public static Sprite player_forward = new Sprite(32, 0, 5, SpriteSheet.tiles);

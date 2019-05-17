@@ -24,12 +24,12 @@ public class SpaceGame extends Canvas implements Runnable{
 	private JFrame frame;
 	private boolean running = false;
 	
-	// detecta pulsaciï¿½n de teclas del teclado
+	// detecta pulsación de teclas del teclado
 	private Keyboard keyboard;
 	private Player player;
 	private Screen screen;
 	
-	// grï¿½ficos
+	// gráficos
 	private BufferedImage bufferedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 	private int[] pixels;
 	
