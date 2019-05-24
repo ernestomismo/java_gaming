@@ -11,9 +11,9 @@ public abstract class Mob extends Entity {
 
 	public void move(int xa, int ya) {
 		if (xa > 0)
-			direction = 0; // movimiento hacia la derecha de la pantalla
+			direction = 1; // east
 		if (xa < 0)
-			direction = 1; // movimiento hacia la izquierda de la pantalla
+			direction = 3; // west
 		if (ya > 0)
 			direction = 2; // south
 		if (ya < 0)

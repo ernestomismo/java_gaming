@@ -1,0 +1,3 @@
+Color de fondo del personaje:
+
+FF006E
